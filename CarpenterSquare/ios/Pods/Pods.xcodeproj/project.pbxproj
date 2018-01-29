@@ -1,0 +1,1280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0019928E73E664DCAFBB6CC3D1FC9857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		17E7E62102D200AFE11B049F570C9397 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB61D573E2EFD8745389DD2C613E4E8 /* PKHUDErrorView.swift */; };
+		1929F91EB38B923FBFA0B2F53C0C4877 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A410F01EE371B07800CFD0BDFA8F29 /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D074B9127FA5FC2639ADEABB5B3D2A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1F34910B27A3B86966E07898A2B70AE6 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3F74FE615534117C8C45438ACD309 /* FrameView.swift */; };
+		2021FF014184768BE6CD51C695DC538F /* Pods-carpentersquareTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5031C9CBC4AB9E83794EC2BC69EBE770 /* Pods-carpentersquareTests-dummy.m */; };
+		2DCA4225866D2445C444325589BD9744 /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B59CF40152F276FCDB3781E5ADC5ED66 /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EF3BB309F7BE0B0AF4AD465A9368EC7 /* Pods-carpentersquareTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A00FA0038C84F512B66EBADD8C10E032 /* Pods-carpentersquareTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3470186F176465D3CA04711D0D82DF38 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935D7D90A5345699DB3029DA8E7EAB77 /* PKHUDAnimation.swift */; };
+		34D8AB5C8FA400C58D7CA084633DF744 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4FBAF60DC4A631F659FDE8B71B314F /* Images.xcassets */; };
+		3942B8DDA10834A6DC0064771C9E64C4 /* Pods-carpentersquareUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 470F0838982FFA48FA37992C02192722 /* Pods-carpentersquareUITests-dummy.m */; };
+		461FB7599A499EDBACF988DE620BE00A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		75C1659F5A79E1AD8E6BE57FD1DE58A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		766750E7B98FF8495403D0C7B5064D6C /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103B1486C3C56B5E8F4C3BF4CF5B337D /* PKHUDProgressView.swift */; };
+		7F09171ED8899C35E45511452323B3DF /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E786945CB6D57890B34E36418873E /* PKHUDSquareBaseView.swift */; };
+		869B25CDDA4D1BDA81A495A23D43E108 /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752DC70346D7E27C998DAEBCDB2B4301 /* PKHUDAssets.swift */; };
+		89C4ADD534D41DF5442F67D799B8E12B /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3CABF036DA0B3BBDB18ABBAC9E9257 /* PKHUDSystemActivityIndicatorView.swift */; };
+		A5A9F17A94A6CC0F7D4E9DE0FCAFE5AB /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B72FFE344C87C5293B45BAD7BF311C /* PKHUDSuccessView.swift */; };
+		A7BA7C4E4C047A5698A68CA76A453605 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346998CB1ACB5FB11BD2EF9EBF28D61 /* PKHUDTextView.swift */; };
+		A85FF06267AFCD09956B2CC508371E2B /* Pods-carpentersquare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F131525735F3B243751C4322CBF204B0 /* Pods-carpentersquare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA27A6C1523E5B1A1B3B74CA02FB67D /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37CCF4556FDE44CBB832B420F1D9EA7 /* PKHUDRotatingImageView.swift */; };
+		B1DC643D39F725A5C89C8195B5C10A09 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C7CA592CBA075A6038F5333152E62 /* PKHUDAnimating.swift */; };
+		BA1B53BE85DE9BD789FE1C32FBA8C752 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BBDB2CA2EB0DBF7F354FAA3BDB7D0C /* HUD.swift */; };
+		BF541FB658B81D55E6A960701BF0619E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E11F3C2DB60A3D9E228DCEAD81528 /* PKHUD.swift */; };
+		C1D191BAF972007706F49E4F242FCCB8 /* Pods-carpentersquareUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 454B5FD245BBE2531FC21BD1A9081345 /* Pods-carpentersquareUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F542D62E2AA523E0A3D28DC85D2012 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669275ACBE6719C4F68DD17C29316386 /* PKHUDWideBaseView.swift */; };
+		D571EE30D11ABC1A0A90920CD73522C4 /* Pods-carpentersquare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE26FD4231ABD1027675F89A68DBEC38 /* Pods-carpentersquare-dummy.m */; };
+		E57944FDD00D7F5F2674D4D52E0F52BA /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E89A3FD899F98A14B81D58952874 /* PKHUD-dummy.m */; };
+		F4C22A07683E879CB3ECF7D6A73F667E /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22872014019326444F6518B0EB952417 /* WindowRootViewController.swift */; };
+		F61C2235825FE532417891978344385E /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C475756EAA15F6E52023394D51EFCB /* Window.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86943B1EF1C5641F70381B1FAA742E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A75F149082140741FC1E0B5B2863C8;
+			remoteInfo = PKHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FB9FAD4204E0AD0772FD7C6BEBC3C2 /* cvconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvconfig.h; path = opencv2.framework/Versions/A/Headers/cvconfig.h; sourceTree = "<group>"; };
+		023A86735A284C0ACA1F93F4CEEAEB39 /* motion_stabilizing.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = motion_stabilizing.hpp; path = opencv2.framework/Versions/A/Headers/videostab/motion_stabilizing.hpp; sourceTree = "<group>"; };
+		05AAC95017B95FF012647EF532A92EC8 /* ocl_genbase.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ocl_genbase.hpp; path = opencv2.framework/Versions/A/Headers/core/ocl_genbase.hpp; sourceTree = "<group>"; };
+		0689CF37BF6EDE45A1797CA1ED1D7733 /* general.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = general.h; path = opencv2.framework/Versions/A/Headers/flann/general.h; sourceTree = "<group>"; };
+		07001A1215F339A1070B70ECB833A3D1 /* video.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = video.hpp; path = opencv2.framework/Versions/A/Headers/video.hpp; sourceTree = "<group>"; };
+		07C48C3717B9E9D888C8118B4318DE2C /* camera.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = camera.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/camera.hpp; sourceTree = "<group>"; };
+		07F6E1414B8B0C7136296FD4DEA46245 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08988B4C13E3070128D775FE497799D8 /* kdtree_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdtree_index.h; path = opencv2.framework/Versions/A/Headers/flann/kdtree_index.h; sourceTree = "<group>"; };
+		08F3102B34A42069B720679DA10F1471 /* core_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = core_c.h; path = opencv2.framework/Versions/A/Headers/core/core_c.h; sourceTree = "<group>"; };
+		09E8391D2A19C8D53F8F7FFA84EC7F08 /* ocl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ocl.hpp; path = opencv2.framework/Versions/A/Headers/core/ocl.hpp; sourceTree = "<group>"; };
+		0B6C62B7FBB418760CC1288A16D8F274 /* photo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = photo.hpp; path = opencv2.framework/Versions/A/Headers/photo.hpp; sourceTree = "<group>"; };
+		0E4A011B2393BD534EB6FA8F9A8BFE55 /* dynamic_bitset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dynamic_bitset.h; path = opencv2.framework/Versions/A/Headers/flann/dynamic_bitset.h; sourceTree = "<group>"; };
+		0F9F06AD8699B22B46FDC6CB0C523EFC /* highgui.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = highgui.hpp; path = opencv2.framework/Versions/A/Headers/highgui/highgui.hpp; sourceTree = "<group>"; };
+		103B1486C3C56B5E8F4C3BF4CF5B337D /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		1224FC90F3C4BE44A8F8E87DAECFB561 /* Pods-carpentersquareUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-carpentersquareUITests-frameworks.sh"; sourceTree = "<group>"; };
+		15D8568C8125931A60B34097590F0E1E /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = opencv2.framework/Versions/A/Headers/flann/heap.h; sourceTree = "<group>"; };
+		161105C23FCFC24E539355CF1435137B /* Pods-carpentersquareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-carpentersquareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1692BFF197B7B39C5CB65F08FC5ACE0A /* neon_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = neon_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/neon_utils.hpp; sourceTree = "<group>"; };
+		177DC5524DB9C97E2483BFD9334AD493 /* distortion_model.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = distortion_model.hpp; path = opencv2.framework/Versions/A/Headers/imgproc/detail/distortion_model.hpp; sourceTree = "<group>"; };
+		18517957088F3BA7652B148738030A21 /* ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ios.h; path = opencv2.framework/Versions/A/Headers/imgcodecs/ios.h; sourceTree = "<group>"; };
+		1B17CA7D15EDFC8076764331BD6A1D4D /* shape_transformer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = shape_transformer.hpp; path = opencv2.framework/Versions/A/Headers/shape/shape_transformer.hpp; sourceTree = "<group>"; };
+		1BFDCD27DA80491B776D0ADB1B744897 /* seam_finders.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = seam_finders.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/seam_finders.hpp; sourceTree = "<group>"; };
+		1C11DD9AD09EBE49DE295F35FB61A6B3 /* Pods-carpentersquareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-carpentersquareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D53E8CE83A705418B91509D17CE5296 /* Pods_carpentersquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_carpentersquare.framework; path = "Pods-carpentersquare.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211E5CC4183941A1838BBD63128A4D98 /* optical_flow.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = optical_flow.hpp; path = opencv2.framework/Versions/A/Headers/videostab/optical_flow.hpp; sourceTree = "<group>"; };
+		22872014019326444F6518B0EB952417 /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		23811E8E1564C8B7517B78A212AE1824 /* shape.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = shape.hpp; path = opencv2.framework/Versions/A/Headers/shape/shape.hpp; sourceTree = "<group>"; };
+		249ACB25E2CBCC1D44B6DFF91D65D19E /* Pods_carpentersquareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_carpentersquareTests.framework; path = "Pods-carpentersquareTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A410F01EE371B07800CFD0BDFA8F29 /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		25B2CC14B0FEDCC26696AE7F7812A016 /* kdtree_single_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdtree_single_index.h; path = opencv2.framework/Versions/A/Headers/flann/kdtree_single_index.h; sourceTree = "<group>"; };
+		25CA0E5D428BF9F87487A1147F9C825E /* inpainting.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = inpainting.hpp; path = opencv2.framework/Versions/A/Headers/videostab/inpainting.hpp; sourceTree = "<group>"; };
+		26B72FFE344C87C5293B45BAD7BF311C /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		2752E098E5D0F8D0B807CFDE8F3F6F9B /* saturate.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = saturate.hpp; path = opencv2.framework/Versions/A/Headers/core/saturate.hpp; sourceTree = "<group>"; };
+		276B86BCB91979F6675E448F50656AE6 /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = opencv2.framework/Versions/A/Headers/flann/params.h; sourceTree = "<group>"; };
+		29D8F47E792229391E636C0666218CE0 /* features2d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = features2d.hpp; path = opencv2.framework/Versions/A/Headers/features2d.hpp; sourceTree = "<group>"; };
+		2A59441B1B933B4BC6C7267B0662DE05 /* PKHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.xcconfig; sourceTree = "<group>"; };
+		2C29EA2339F4299729CA8C75E67A0396 /* traits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = traits.hpp; path = opencv2.framework/Versions/A/Headers/core/traits.hpp; sourceTree = "<group>"; };
+		2E653F538B176AF48021759DEDE083E0 /* affine.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = affine.hpp; path = opencv2.framework/Versions/A/Headers/core/affine.hpp; sourceTree = "<group>"; };
+		2F1475F20BEA631A6345AC9A223676F9 /* Pods-carpentersquare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-carpentersquare-resources.sh"; sourceTree = "<group>"; };
+		2F834F4444C91FF688BF76EEECEBBA86 /* calib3d_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = calib3d_c.h; path = opencv2.framework/Versions/A/Headers/calib3d/calib3d_c.h; sourceTree = "<group>"; };
+		300F9FA52BE1F0C9CC0919837E221A82 /* Pods-carpentersquareUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-carpentersquareUITests.modulemap"; sourceTree = "<group>"; };
+		31B323FB66D01DA85C4802D5CC8B8AE2 /* cvdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvdef.h; path = opencv2.framework/Versions/A/Headers/core/cvdef.h; sourceTree = "<group>"; };
+		365270B515EB7E4CFF66A4A61C14DBEB /* shape_distance.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = shape_distance.hpp; path = opencv2.framework/Versions/A/Headers/shape/shape_distance.hpp; sourceTree = "<group>"; };
+		387DD578C35167E05C07BEF1FB9C9218 /* blenders.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = blenders.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/blenders.hpp; sourceTree = "<group>"; };
+		39B662A65EB52A2B2C75D98AFE989A31 /* hdf5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hdf5.h; path = opencv2.framework/Versions/A/Headers/flann/hdf5.h; sourceTree = "<group>"; };
+		3AAE0A988856AE714C426336437158A4 /* intrin_cpp.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrin_cpp.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_cpp.hpp; sourceTree = "<group>"; };
+		3AF9F2C1E28163493CD6E80EFD4AB6FA /* eigen.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = eigen.hpp; path = opencv2.framework/Versions/A/Headers/core/eigen.hpp; sourceTree = "<group>"; };
+		3C3B284C63DF83DA1CB6D332C324A2B7 /* cuda.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = cuda.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda.hpp; sourceTree = "<group>"; };
+		3D71237B03DCF741FF6648AF92FA8B8D /* defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = defines.h; path = opencv2.framework/Versions/A/Headers/flann/defines.h; sourceTree = "<group>"; };
+		3E6B8747C6810948FAE9E99249B9338E /* global_motion.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = global_motion.hpp; path = opencv2.framework/Versions/A/Headers/videostab/global_motion.hpp; sourceTree = "<group>"; };
+		3F66D9150AE67D0A3D55D704B60B65D8 /* ptr.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ptr.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/ptr.inl.hpp; sourceTree = "<group>"; };
+		3F72BF0F592EC8A6F2784584F7D84957 /* Pods-carpentersquare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-carpentersquare.modulemap"; sourceTree = "<group>"; };
+		3FD16A9A690695FD13911476714E74A1 /* imgproc_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgproc_c.h; path = opencv2.framework/Versions/A/Headers/imgproc/imgproc_c.h; sourceTree = "<group>"; };
+		40F054964CCE64DB1508F2E43932731D /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = core.hpp; path = opencv2.framework/Versions/A/Headers/core/core.hpp; sourceTree = "<group>"; };
+		4124AC65E803C4232F9FE3AF73C3453B /* flann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = flann.hpp; path = opencv2.framework/Versions/A/Headers/flann.hpp; sourceTree = "<group>"; };
+		420AE812F739A2212F502DEEF4A2AD88 /* Pods-carpentersquareTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-carpentersquareTests.modulemap"; sourceTree = "<group>"; };
+		422DF6E5814518A68BAB5525315B01D4 /* mat.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mat.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/mat.inl.hpp; sourceTree = "<group>"; };
+		43324D1FD626D5D5834E21C0E87027C7 /* ml.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ml.hpp; path = opencv2.framework/Versions/A/Headers/ml.hpp; sourceTree = "<group>"; };
+		439670DE8B35A8C6A4DA3CC686ADB8D3 /* flann_base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = flann_base.hpp; path = opencv2.framework/Versions/A/Headers/flann/flann_base.hpp; sourceTree = "<group>"; };
+		4412C6CA875ECDD5DF83536015E34DB7 /* objdetect_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objdetect_c.h; path = opencv2.framework/Versions/A/Headers/objdetect/objdetect_c.h; sourceTree = "<group>"; };
+		44AA0250AB7604B04A05BED86981BDEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454B5FD245BBE2531FC21BD1A9081345 /* Pods-carpentersquareUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-carpentersquareUITests-umbrella.h"; sourceTree = "<group>"; };
+		4575A3615C393A6AF4E9DF1CEBDD290B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465507CFB2ACD7BC85D3C0CC43599959 /* composite_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = composite_index.h; path = opencv2.framework/Versions/A/Headers/flann/composite_index.h; sourceTree = "<group>"; };
+		469DF637AFEE4E54CEC4EB1E926173B7 /* detection_based_tracker.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = detection_based_tracker.hpp; path = opencv2.framework/Versions/A/Headers/objdetect/detection_based_tracker.hpp; sourceTree = "<group>"; };
+		470F0838982FFA48FA37992C02192722 /* Pods-carpentersquareUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-carpentersquareUITests-dummy.m"; sourceTree = "<group>"; };
+		483455443B77C9BB1D6853078827BC7B /* matx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matx.hpp; path = opencv2.framework/Versions/A/Headers/core/matx.hpp; sourceTree = "<group>"; };
+		4B120777DE24AF80E6CA19F6D742A7E7 /* private.cuda.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = private.cuda.hpp; path = opencv2.framework/Versions/A/Headers/core/private.cuda.hpp; sourceTree = "<group>"; };
+		4E94E404A437825DBFB1A326E19B9F84 /* allocator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allocator.h; path = opencv2.framework/Versions/A/Headers/flann/allocator.h; sourceTree = "<group>"; };
+		5031C9CBC4AB9E83794EC2BC69EBE770 /* Pods-carpentersquareTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-carpentersquareTests-dummy.m"; sourceTree = "<group>"; };
+		50F6BE1631EB1771F51D4471BBD37AFD /* log.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = log.hpp; path = opencv2.framework/Versions/A/Headers/videostab/log.hpp; sourceTree = "<group>"; };
+		53655DF630549419DA162AE9BE4D3F1B /* imgcodecs_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgcodecs_c.h; path = opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs_c.h; sourceTree = "<group>"; };
+		53C56DA1513AC312B8C272F059722971 /* cuda_stream_accessor.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = cuda_stream_accessor.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda_stream_accessor.hpp; sourceTree = "<group>"; };
+		547D381224B2D5034D9B6CC592D3B419 /* directx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = directx.hpp; path = opencv2.framework/Versions/A/Headers/core/directx.hpp; sourceTree = "<group>"; };
+		54CC56337DE18376BF7260F9682DFD8A /* Pods-carpentersquare-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-carpentersquare-frameworks.sh"; sourceTree = "<group>"; };
+		5516F61E47F9BC787D502119DF99572B /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		56FC5DBEAAC1DB1C16884BD137938FCA /* matchers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = matchers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/matchers.hpp; sourceTree = "<group>"; };
+		5869095E617A7F3098E0DD82B23E38D5 /* bufferpool.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = bufferpool.hpp; path = opencv2.framework/Versions/A/Headers/core/bufferpool.hpp; sourceTree = "<group>"; };
+		593B6A339B9376EB972A4CCB4AC55FB6 /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		59D57A09286982495E3D9A84A91FB6EF /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = base.hpp; path = opencv2.framework/Versions/A/Headers/core/base.hpp; sourceTree = "<group>"; };
+		5A5AAC83FD130A15144D41892773A5E0 /* hal.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = hal.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/hal.hpp; sourceTree = "<group>"; };
+		5AFB3B91C957D83728499B9811BFAB50 /* features2d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = features2d.hpp; path = opencv2.framework/Versions/A/Headers/features2d/features2d.hpp; sourceTree = "<group>"; };
+		5B96E6B4634A282D072C2D5227DD3284 /* dist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dist.h; path = opencv2.framework/Versions/A/Headers/flann/dist.h; sourceTree = "<group>"; };
+		5EA08710E22095949AC1C653DAC37327 /* intrin_sse.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrin_sse.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_sse.hpp; sourceTree = "<group>"; };
+		609577E2826F3F646D034AF6B7838E41 /* autocalib.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = autocalib.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/autocalib.hpp; sourceTree = "<group>"; };
+		61ABA3919D3F71E7BECF475E2F0DE1BB /* utility.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = utility.hpp; path = opencv2.framework/Versions/A/Headers/core/utility.hpp; sourceTree = "<group>"; };
+		632F87BB715D13DF457AEA27AA96BEF8 /* Pods_carpentersquareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_carpentersquareUITests.framework; path = "Pods-carpentersquareUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6346998CB1ACB5FB11BD2EF9EBF28D61 /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		65F17ABE7A23B9EF5B66FF1BD024DE8F /* lsh_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsh_index.h; path = opencv2.framework/Versions/A/Headers/flann/lsh_index.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		669275ACBE6719C4F68DD17C29316386 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
+		6724EDC776EDE0D379CEC996CD45CA4D /* dummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = opencv2.framework/Versions/A/Headers/flann/dummy.h; sourceTree = "<group>"; };
+		689FA73AD5B37635FE86A267EB2496D7 /* emdL1.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = emdL1.hpp; path = opencv2.framework/Versions/A/Headers/shape/emdL1.hpp; sourceTree = "<group>"; };
+		697B9499F552C77E0C0197F5DF867ACB /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = core.hpp; path = opencv2.framework/Versions/A/Headers/core.hpp; sourceTree = "<group>"; };
+		6A43192F91B69735D9AF033CDFD76B13 /* sse_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sse_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/sse_utils.hpp; sourceTree = "<group>"; };
+		6A6C01A5AC2E3EEE0AA94A3B3D27CB0A /* Pods-carpentersquareTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-carpentersquareTests-frameworks.sh"; sourceTree = "<group>"; };
+		6B3FB5F2F0293D00E6FE21522CB54415 /* autotuned_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autotuned_index.h; path = opencv2.framework/Versions/A/Headers/flann/autotuned_index.h; sourceTree = "<group>"; };
+		6B5F3EB4295B9E46A54E9774CC855A71 /* interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interface.h; path = opencv2.framework/Versions/A/Headers/core/hal/interface.h; sourceTree = "<group>"; };
+		6BBB525FCA301C0EA91AE20FBF68C04C /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/imgproc.hpp; sourceTree = "<group>"; };
+		6BED1EB6B18A966E7B9B144B1669DC55 /* fast_marching.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fast_marching.hpp; path = opencv2.framework/Versions/A/Headers/videostab/fast_marching.hpp; sourceTree = "<group>"; };
+		6E72E91FE75636A499FC3EDEB865F0E3 /* videoio_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videoio_c.h; path = opencv2.framework/Versions/A/Headers/videoio/videoio_c.h; sourceTree = "<group>"; };
+		6FBB9AD5F3701AD3813A07397FE67BA0 /* Pods-carpentersquareUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-carpentersquareUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70CCB304AD745D51EA95A2D35575B484 /* shape.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = shape.hpp; path = opencv2.framework/Versions/A/Headers/shape.hpp; sourceTree = "<group>"; };
+		752DC70346D7E27C998DAEBCDB2B4301 /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		769E786945CB6D57890B34E36418873E /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		78EB1D157E4370DF9A9E9120E4CC8935 /* optim.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = optim.hpp; path = opencv2.framework/Versions/A/Headers/core/optim.hpp; sourceTree = "<group>"; };
+		7B0511E76AA64EC816EDC603DACBE709 /* stabilizer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = stabilizer.hpp; path = opencv2.framework/Versions/A/Headers/videostab/stabilizer.hpp; sourceTree = "<group>"; };
+		7BB11A11F37E05EC47440A2893377A5B /* flann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = flann.hpp; path = opencv2.framework/Versions/A/Headers/flann/flann.hpp; sourceTree = "<group>"; };
+		80E9A9CD9B2C6D1D2489510F5C66105A /* Pods-carpentersquareTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-carpentersquareTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		834C7CA592CBA075A6038F5333152E62 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		8405F9A58C33C463B2D36D7DFBF32132 /* va_intel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = va_intel.hpp; path = opencv2.framework/Versions/A/Headers/core/va_intel.hpp; sourceTree = "<group>"; };
+		8664A752813AA24AD1A3D63407FED833 /* linear_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linear_index.h; path = opencv2.framework/Versions/A/Headers/flann/linear_index.h; sourceTree = "<group>"; };
+		86AE45FCE6CD507FF7108182E18397E2 /* private.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = private.hpp; path = opencv2.framework/Versions/A/Headers/core/private.hpp; sourceTree = "<group>"; };
+		879F41D74C05BCC3C78C58B8517347B7 /* types_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types_c.h; path = opencv2.framework/Versions/A/Headers/imgproc/types_c.h; sourceTree = "<group>"; };
+		88DC028D987BF871AC9F298B391401DB /* videostab.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = videostab.hpp; path = opencv2.framework/Versions/A/Headers/videostab.hpp; sourceTree = "<group>"; };
+		89960FEE06049C3F50E9FDFCF83B9C7A /* Pods-carpentersquare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-carpentersquare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89AEA5BD2A832A6A79BCAA70DDFFF03C /* deblurring.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = deblurring.hpp; path = opencv2.framework/Versions/A/Headers/videostab/deblurring.hpp; sourceTree = "<group>"; };
+		8BB935DFF79DAB71DB91C1DAD8DF3DE6 /* frame_source.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = frame_source.hpp; path = opencv2.framework/Versions/A/Headers/videostab/frame_source.hpp; sourceTree = "<group>"; };
+		8C5E8FA0D1449BA52172997F38ED4F42 /* object_factory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = object_factory.h; path = opencv2.framework/Versions/A/Headers/flann/object_factory.h; sourceTree = "<group>"; };
+		8F73013016D110C9AB745EEEC8D75066 /* fast_math.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fast_math.hpp; path = opencv2.framework/Versions/A/Headers/core/fast_math.hpp; sourceTree = "<group>"; };
+		8F88FBAE43884E761CF77D4CDF50A1CF /* warpers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = warpers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/warpers.hpp; sourceTree = "<group>"; };
+		9111D0905923E9F5EC9BBF64A4922624 /* video.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = video.hpp; path = opencv2.framework/Versions/A/Headers/video/video.hpp; sourceTree = "<group>"; };
+		91BF0607E566DC90A9B018AF2DE2A7F0 /* all_indices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = all_indices.h; path = opencv2.framework/Versions/A/Headers/flann/all_indices.h; sourceTree = "<group>"; };
+		91EF082CB297B640966FAF70ABEBBF6E /* Pods-carpentersquareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-carpentersquareTests.release.xcconfig"; sourceTree = "<group>"; };
+		92167A9DF8910E18E2CCF0614E9D8D62 /* Pods-carpentersquareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-carpentersquareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		935D7D90A5345699DB3029DA8E7EAB77 /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94041925A3A43173BE9580661B04CDB4 /* wobble_suppression.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = wobble_suppression.hpp; path = opencv2.framework/Versions/A/Headers/videostab/wobble_suppression.hpp; sourceTree = "<group>"; };
+		95BBDB2CA2EB0DBF7F354FAA3BDB7D0C /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		96DD0B0E130C7A2096FD68DB8A9CCCFD /* util_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = util_inl.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/util_inl.hpp; sourceTree = "<group>"; };
+		977E92FCF9B23A9610948C500E22F8CF /* index_testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = index_testing.h; path = opencv2.framework/Versions/A/Headers/flann/index_testing.h; sourceTree = "<group>"; };
+		978561076C14B23830BC0867C4ECB295 /* photo_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = photo_c.h; path = opencv2.framework/Versions/A/Headers/photo/photo_c.h; sourceTree = "<group>"; };
+		98ED3169DF144F8DAA182A024D97F600 /* Pods-carpentersquareUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-carpentersquareUITests-resources.sh"; sourceTree = "<group>"; };
+		998B2E422F798ACA2141968A3EE5D4E3 /* Pods-carpentersquareTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-carpentersquareTests-resources.sh"; sourceTree = "<group>"; };
+		9AAEF3C333A7156BC793303C5E9111C1 /* ground_truth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ground_truth.h; path = opencv2.framework/Versions/A/Headers/flann/ground_truth.h; sourceTree = "<group>"; };
+		9BCA5AE56E20062F169AF03C9AE6DCD4 /* cuda_types.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = cuda_types.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda_types.hpp; sourceTree = "<group>"; };
+		9CC76C925C7F5CFE3884D76F72D81EEB /* any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = any.h; path = opencv2.framework/Versions/A/Headers/flann/any.h; sourceTree = "<group>"; };
+		9E92C9B624A6EE97C681AD2A0A20DD2C /* Pods-carpentersquareUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-carpentersquareUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A00FA0038C84F512B66EBADD8C10E032 /* Pods-carpentersquareTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-carpentersquareTests-umbrella.h"; sourceTree = "<group>"; };
+		A14D26E11765EA038490F667BD75455F /* tracking.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = tracking.hpp; path = opencv2.framework/Versions/A/Headers/video/tracking.hpp; sourceTree = "<group>"; };
+		A1DACD56678B56B469639E5924B801A0 /* exposure_compensate.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = exposure_compensate.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/exposure_compensate.hpp; sourceTree = "<group>"; };
+		A1F96313A0C3775904BBC2852F599A6D /* Pods-carpentersquare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-carpentersquare-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5D280F1E7BA5B4ED2C89BF34719C04B /* opencv_modules.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = opencv_modules.hpp; path = opencv2.framework/Versions/A/Headers/opencv_modules.hpp; sourceTree = "<group>"; };
+		AE26FD4231ABD1027675F89A68DBEC38 /* Pods-carpentersquare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-carpentersquare-dummy.m"; sourceTree = "<group>"; };
+		AEB61D573E2EFD8745389DD2C613E4E8 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		AEF3F74FE615534117C8C45438ACD309 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		AFEA89C05826CAE6F43E5B6E2BE57D12 /* Pods-carpentersquareTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-carpentersquareTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B10E3009837746EEF95DFBD81D106A6F /* intrin.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrin.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin.hpp; sourceTree = "<group>"; };
+		B2105DFC07D5EC73F1CB9AB456B4B0AA /* objdetect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = objdetect.hpp; path = opencv2.framework/Versions/A/Headers/objdetect.hpp; sourceTree = "<group>"; };
+		B3B66B040383D2BA3CEBF25F90B3D0A1 /* ml.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ml.hpp; path = opencv2.framework/Versions/A/Headers/ml/ml.hpp; sourceTree = "<group>"; };
+		B59CF40152F276FCDB3781E5ADC5ED66 /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		B5FEA191B48A464E35F56BFE224EA06E /* motion_core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = motion_core.hpp; path = opencv2.framework/Versions/A/Headers/videostab/motion_core.hpp; sourceTree = "<group>"; };
+		B64537742F1938B82064DE3C745C85B6 /* util.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = util.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/util.hpp; sourceTree = "<group>"; };
+		B77993F399A6007145F9EB75310ED37C /* intrin_neon.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = intrin_neon.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_neon.hpp; sourceTree = "<group>"; };
+		B796360619D56EE5BC9F3CA5FADDCA4F /* types_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types_c.h; path = opencv2.framework/Versions/A/Headers/core/types_c.h; sourceTree = "<group>"; };
+		B82B870FAB76B86ADCC12AE89185224A /* lsh_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsh_table.h; path = opencv2.framework/Versions/A/Headers/flann/lsh_table.h; sourceTree = "<group>"; };
+		B8C475756EAA15F6E52023394D51EFCB /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		BA29FBA0A92A7BD1528B0B07B446C0F1 /* mat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mat.hpp; path = opencv2.framework/Versions/A/Headers/core/mat.hpp; sourceTree = "<group>"; };
+		BAF736921E2BE2FFD02856C9D083AC15 /* logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = logger.h; path = opencv2.framework/Versions/A/Headers/flann/logger.h; sourceTree = "<group>"; };
+		BE338B95F441CF44ACC67C8FD6CB727F /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/imgproc/imgproc.hpp; sourceTree = "<group>"; };
+		BF9072F456187F6BD26AE4CE784BC331 /* Pods-carpentersquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-carpentersquare.release.xcconfig"; sourceTree = "<group>"; };
+		BFAAB4236E02AA3C6717414A1D42DE4A /* sampling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sampling.h; path = opencv2.framework/Versions/A/Headers/flann/sampling.h; sourceTree = "<group>"; };
+		C06F45C167AE71F73B543B8D45CFD2A3 /* hierarchical_clustering_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hierarchical_clustering_index.h; path = opencv2.framework/Versions/A/Headers/flann/hierarchical_clustering_index.h; sourceTree = "<group>"; };
+		C079639D9D4F5016A77C9F82F3324B92 /* tracking_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tracking_c.h; path = opencv2.framework/Versions/A/Headers/video/tracking_c.h; sourceTree = "<group>"; };
+		C254AD47BADAB1EFBE43BC0C9D5CFBE5 /* kmeans_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kmeans_index.h; path = opencv2.framework/Versions/A/Headers/flann/kmeans_index.h; sourceTree = "<group>"; };
+		C299A3CB4C839B03EAB3FE19182D93A1 /* highgui_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = highgui_c.h; path = opencv2.framework/Versions/A/Headers/highgui/highgui_c.h; sourceTree = "<group>"; };
+		C2CE83E1B5610B08305895E1F1117AB6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		C32EF2D366B8A449AA76317CDF600FC5 /* calib3d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = calib3d.hpp; path = opencv2.framework/Versions/A/Headers/calib3d.hpp; sourceTree = "<group>"; };
+		C40714E379C53484976A703A5EBA836B /* opengl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = opengl.hpp; path = opencv2.framework/Versions/A/Headers/core/opengl.hpp; sourceTree = "<group>"; };
+		C49E11F3C2DB60A3D9E228DCEAD81528 /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		C7A4D090D52D7D7F9C6E6D7992160A15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C912CD48DAF910BF32DB5F64A46373BD /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = opencv2.framework/Versions/A/Headers/flann/config.h; sourceTree = "<group>"; };
+		CB7369F509C58F67A61839BBE3B479D8 /* highgui.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = highgui.hpp; path = opencv2.framework/Versions/A/Headers/highgui.hpp; sourceTree = "<group>"; };
+		CC2AE786C0D4C5EB444FB7043E9EC3A2 /* types.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = types.hpp; path = opencv2.framework/Versions/A/Headers/core/types.hpp; sourceTree = "<group>"; };
+		CE4961763268358DECCF7D57BF8F8C03 /* cvstd.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = cvstd.hpp; path = opencv2.framework/Versions/A/Headers/core/cvstd.hpp; sourceTree = "<group>"; };
+		CF94108E3DB57D31BE73B9241E24E6D3 /* calib3d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = calib3d.hpp; path = opencv2.framework/Versions/A/Headers/calib3d/calib3d.hpp; sourceTree = "<group>"; };
+		CFCA67FB811C473638A389B01B310C48 /* hist_cost.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = hist_cost.hpp; path = opencv2.framework/Versions/A/Headers/shape/hist_cost.hpp; sourceTree = "<group>"; };
+		D05701FC85E9C1FD36DFF64F461A3823 /* cvstd.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = cvstd.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/cvstd.inl.hpp; sourceTree = "<group>"; };
+		D06A593C41CA766E57318D11CFBB0052 /* Pods-carpentersquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-carpentersquare.debug.xcconfig"; sourceTree = "<group>"; };
+		D432A9251845F7A1E10E2E7C1BF98D35 /* fast_marching_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fast_marching_inl.hpp; path = opencv2.framework/Versions/A/Headers/videostab/fast_marching_inl.hpp; sourceTree = "<group>"; };
+		D53B340F495548FEF1772238A4F42620 /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = opencv2.framework/Versions/A/Headers/flann/matrix.h; sourceTree = "<group>"; };
+		D64849CE1520510FAED3929EECB005CD /* ring_buffer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ring_buffer.hpp; path = opencv2.framework/Versions/A/Headers/videostab/ring_buffer.hpp; sourceTree = "<group>"; };
+		D6BB368D397CE5557622AEA748797B2A /* opencv.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = opencv.hpp; path = opencv2.framework/Versions/A/Headers/opencv.hpp; sourceTree = "<group>"; };
+		D7EB9A0B258FF435478A672B71124F30 /* warpers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = warpers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/warpers.hpp; sourceTree = "<group>"; };
+		D83D05FEB7D68275387AC320D09A9F34 /* version.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = version.hpp; path = opencv2.framework/Versions/A/Headers/core/version.hpp; sourceTree = "<group>"; };
+		DA1D871F20FC6B9636177DA2C69B3479 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PKHUD.framework; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD0DABD6033DE259FADFDC850DB4405 /* persistence.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = persistence.hpp; path = opencv2.framework/Versions/A/Headers/core/persistence.hpp; sourceTree = "<group>"; };
+		DE8E735847CE1EA1C137D1D7418CAFCD /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timer.h; path = opencv2.framework/Versions/A/Headers/flann/timer.h; sourceTree = "<group>"; };
+		DEB69B77B3EF7F93A03A6F4ACC18FBA4 /* imgcodecs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = imgcodecs.hpp; path = opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs.hpp; sourceTree = "<group>"; };
+		DEFA91AD550E9C4F6B591E1B7ECA79E7 /* cuda.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = cuda.hpp; path = opencv2.framework/Versions/A/Headers/photo/cuda.hpp; sourceTree = "<group>"; };
+		DF04615817A45C758ED4010B30E63123 /* timelapsers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = timelapsers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/timelapsers.hpp; sourceTree = "<group>"; };
+		E04F706AFD9BF6BF04F644C9BFCD453C /* simplex_downhill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simplex_downhill.h; path = opencv2.framework/Versions/A/Headers/flann/simplex_downhill.h; sourceTree = "<group>"; };
+		E1B145C7B4303AE89052F42A230DF061 /* nn_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nn_index.h; path = opencv2.framework/Versions/A/Headers/flann/nn_index.h; sourceTree = "<group>"; };
+		E5E1D4A108D09C98BD8284592F2B2D70 /* wimage.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = wimage.hpp; path = opencv2.framework/Versions/A/Headers/core/wimage.hpp; sourceTree = "<group>"; };
+		E626299FA005323EC2165B1F8EBB3E70 /* stitching.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = stitching.hpp; path = opencv2.framework/Versions/A/Headers/stitching.hpp; sourceTree = "<group>"; };
+		E6CAB3AA0AA812FE924F8EFA3291A56C /* saving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = saving.h; path = opencv2.framework/Versions/A/Headers/flann/saving.h; sourceTree = "<group>"; };
+		E92CB7A0AB2CAC5BA6D1564831440AD8 /* ippasync.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ippasync.hpp; path = opencv2.framework/Versions/A/Headers/core/ippasync.hpp; sourceTree = "<group>"; };
+		E971D48B5E635B7793BCAE6ACCC6A54B /* videoio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = videoio.hpp; path = opencv2.framework/Versions/A/Headers/videoio.hpp; sourceTree = "<group>"; };
+		E98B7AD6BA86ECA25E0C9BD25B9358CD /* world.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = world.hpp; path = opencv2.framework/Versions/A/Headers/world.hpp; sourceTree = "<group>"; };
+		EA93EBF99E438DA3215044A55380379D /* motion_estimators.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = motion_estimators.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/motion_estimators.hpp; sourceTree = "<group>"; };
+		EF3CABF036DA0B3BBDB18ABBAC9E9257 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		F0C3973FB5B864BA1F9573039465CA13 /* outlier_rejection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = outlier_rejection.hpp; path = opencv2.framework/Versions/A/Headers/videostab/outlier_rejection.hpp; sourceTree = "<group>"; };
+		F131525735F3B243751C4322CBF204B0 /* Pods-carpentersquare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-carpentersquare-umbrella.h"; sourceTree = "<group>"; };
+		F1B4E89A3FD899F98A14B81D58952874 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		F1D1E50CEDF4E8F4A18E0B776D0E7329 /* objdetect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = objdetect.hpp; path = opencv2.framework/Versions/A/Headers/objdetect/objdetect.hpp; sourceTree = "<group>"; };
+		F248C09FB3FC65F931A424EF0C98A321 /* cap_ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cap_ios.h; path = opencv2.framework/Versions/A/Headers/videoio/cap_ios.h; sourceTree = "<group>"; };
+		F24AE8F2C9BEA62FC229F4591271B484 /* random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random.h; path = opencv2.framework/Versions/A/Headers/flann/random.h; sourceTree = "<group>"; };
+		F37CCF4556FDE44CBB832B420F1D9EA7 /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		F5089524121D4648D87F373E86171320 /* background_segm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = background_segm.hpp; path = opencv2.framework/Versions/A/Headers/video/background_segm.hpp; sourceTree = "<group>"; };
+		F50AB19EA1C67E7299C86329EC9E4D30 /* miniflann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = miniflann.hpp; path = opencv2.framework/Versions/A/Headers/flann/miniflann.hpp; sourceTree = "<group>"; };
+		F54E725C964D7849FAFE6B108437B0EE /* result_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = result_set.h; path = opencv2.framework/Versions/A/Headers/flann/result_set.h; sourceTree = "<group>"; };
+		F64164BE1AB339BA24A3F626D2F4999B /* videoio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = videoio.hpp; path = opencv2.framework/Versions/A/Headers/videoio/videoio.hpp; sourceTree = "<group>"; };
+		F7CB45AC7CC5E35BFE673E87A28626CB /* warpers_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = warpers_inl.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/warpers_inl.hpp; sourceTree = "<group>"; };
+		F95158A436BA510969A4745316D1AD68 /* operations.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = operations.hpp; path = opencv2.framework/Versions/A/Headers/core/operations.hpp; sourceTree = "<group>"; };
+		FAC1F6B4AB9D43F2BA718DD973F10377 /* cuda.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = cuda.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda.inl.hpp; sourceTree = "<group>"; };
+		FB4FBAF60DC4A631F659FDE8B71B314F /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		FB7CD0AE6F49159569CF23531D102ABC /* photo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = photo.hpp; path = opencv2.framework/Versions/A/Headers/photo/photo.hpp; sourceTree = "<group>"; };
+		FC77291263DF987EB0D61CB78FB060EE /* imgcodecs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = imgcodecs.hpp; path = opencv2.framework/Versions/A/Headers/imgcodecs.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09097AE0247A71FADE9AE4A13E3E0C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D074B9127FA5FC2639ADEABB5B3D2A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2693F856E8BAA79418AF3370E0DC0E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461FB7599A499EDBACF988DE620BE00A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A16F279F54B3122C00B2DEA6990CB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C1659F5A79E1AD8E6BE57FD1DE58A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B3AB146328CDF36B268CF935FBE2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0019928E73E664DCAFBB6CC3D1FC9857 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD451C9152FB83D92D85BC559BD8B75 /* Pods-carpentersquare */ = {
+			isa = PBXGroup;
+			children = (
+				C7A4D090D52D7D7F9C6E6D7992160A15 /* Info.plist */,
+				3F72BF0F592EC8A6F2784584F7D84957 /* Pods-carpentersquare.modulemap */,
+				89960FEE06049C3F50E9FDFCF83B9C7A /* Pods-carpentersquare-acknowledgements.markdown */,
+				A1F96313A0C3775904BBC2852F599A6D /* Pods-carpentersquare-acknowledgements.plist */,
+				AE26FD4231ABD1027675F89A68DBEC38 /* Pods-carpentersquare-dummy.m */,
+				54CC56337DE18376BF7260F9682DFD8A /* Pods-carpentersquare-frameworks.sh */,
+				2F1475F20BEA631A6345AC9A223676F9 /* Pods-carpentersquare-resources.sh */,
+				F131525735F3B243751C4322CBF204B0 /* Pods-carpentersquare-umbrella.h */,
+				D06A593C41CA766E57318D11CFBB0052 /* Pods-carpentersquare.debug.xcconfig */,
+				BF9072F456187F6BD26AE4CE784BC331 /* Pods-carpentersquare.release.xcconfig */,
+			);
+			name = "Pods-carpentersquare";
+			path = "Target Support Files/Pods-carpentersquare";
+			sourceTree = "<group>";
+		};
+		676E9BB7D9D4C48F0FDAE6D50A893CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2CE83E1B5610B08305895E1F1117AB6 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7371508F3185724FA3CAA76CF700F118 /* Pods-carpentersquareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44AA0250AB7604B04A05BED86981BDEC /* Info.plist */,
+				300F9FA52BE1F0C9CC0919837E221A82 /* Pods-carpentersquareUITests.modulemap */,
+				6FBB9AD5F3701AD3813A07397FE67BA0 /* Pods-carpentersquareUITests-acknowledgements.markdown */,
+				9E92C9B624A6EE97C681AD2A0A20DD2C /* Pods-carpentersquareUITests-acknowledgements.plist */,
+				470F0838982FFA48FA37992C02192722 /* Pods-carpentersquareUITests-dummy.m */,
+				1224FC90F3C4BE44A8F8E87DAECFB561 /* Pods-carpentersquareUITests-frameworks.sh */,
+				98ED3169DF144F8DAA182A024D97F600 /* Pods-carpentersquareUITests-resources.sh */,
+				454B5FD245BBE2531FC21BD1A9081345 /* Pods-carpentersquareUITests-umbrella.h */,
+				92167A9DF8910E18E2CCF0614E9D8D62 /* Pods-carpentersquareUITests.debug.xcconfig */,
+				1C11DD9AD09EBE49DE295F35FB61A6B3 /* Pods-carpentersquareUITests.release.xcconfig */,
+			);
+			name = "Pods-carpentersquareUITests";
+			path = "Target Support Files/Pods-carpentersquareUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D2E8DEA6DC21FFD74D1BD0DB993244FF /* Pods */,
+				FCF628E24047682824FFD033BF7AD567 /* Products */,
+				8FF3A3AA8856DF21B21451149203F69B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A9703CA0A76C7D0029A3CD397F49EB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB4FBAF60DC4A631F659FDE8B71B314F /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8FF3A3AA8856DF21B21451149203F69B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD451C9152FB83D92D85BC559BD8B75 /* Pods-carpentersquare */,
+				BB0C409416D62F204973AA2C6D579C7C /* Pods-carpentersquareTests */,
+				7371508F3185724FA3CAA76CF700F118 /* Pods-carpentersquareUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3A9AF4C6E414F5DA9CA2E912F5945BD /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				2E653F538B176AF48021759DEDE083E0 /* affine.hpp */,
+				91BF0607E566DC90A9B018AF2DE2A7F0 /* all_indices.h */,
+				4E94E404A437825DBFB1A326E19B9F84 /* allocator.h */,
+				9CC76C925C7F5CFE3884D76F72D81EEB /* any.h */,
+				609577E2826F3F646D034AF6B7838E41 /* autocalib.hpp */,
+				6B3FB5F2F0293D00E6FE21522CB54415 /* autotuned_index.h */,
+				F5089524121D4648D87F373E86171320 /* background_segm.hpp */,
+				59D57A09286982495E3D9A84A91FB6EF /* base.hpp */,
+				387DD578C35167E05C07BEF1FB9C9218 /* blenders.hpp */,
+				5869095E617A7F3098E0DD82B23E38D5 /* bufferpool.hpp */,
+				C32EF2D366B8A449AA76317CDF600FC5 /* calib3d.hpp */,
+				CF94108E3DB57D31BE73B9241E24E6D3 /* calib3d.hpp */,
+				2F834F4444C91FF688BF76EEECEBBA86 /* calib3d_c.h */,
+				07C48C3717B9E9D888C8118B4318DE2C /* camera.hpp */,
+				F248C09FB3FC65F931A424EF0C98A321 /* cap_ios.h */,
+				465507CFB2ACD7BC85D3C0CC43599959 /* composite_index.h */,
+				C912CD48DAF910BF32DB5F64A46373BD /* config.h */,
+				40F054964CCE64DB1508F2E43932731D /* core.hpp */,
+				697B9499F552C77E0C0197F5DF867ACB /* core.hpp */,
+				08F3102B34A42069B720679DA10F1471 /* core_c.h */,
+				DEFA91AD550E9C4F6B591E1B7ECA79E7 /* cuda.hpp */,
+				3C3B284C63DF83DA1CB6D332C324A2B7 /* cuda.hpp */,
+				FAC1F6B4AB9D43F2BA718DD973F10377 /* cuda.inl.hpp */,
+				53C56DA1513AC312B8C272F059722971 /* cuda_stream_accessor.hpp */,
+				9BCA5AE56E20062F169AF03C9AE6DCD4 /* cuda_types.hpp */,
+				01FB9FAD4204E0AD0772FD7C6BEBC3C2 /* cvconfig.h */,
+				31B323FB66D01DA85C4802D5CC8B8AE2 /* cvdef.h */,
+				CE4961763268358DECCF7D57BF8F8C03 /* cvstd.hpp */,
+				D05701FC85E9C1FD36DFF64F461A3823 /* cvstd.inl.hpp */,
+				89AEA5BD2A832A6A79BCAA70DDFFF03C /* deblurring.hpp */,
+				3D71237B03DCF741FF6648AF92FA8B8D /* defines.h */,
+				469DF637AFEE4E54CEC4EB1E926173B7 /* detection_based_tracker.hpp */,
+				547D381224B2D5034D9B6CC592D3B419 /* directx.hpp */,
+				5B96E6B4634A282D072C2D5227DD3284 /* dist.h */,
+				177DC5524DB9C97E2483BFD9334AD493 /* distortion_model.hpp */,
+				6724EDC776EDE0D379CEC996CD45CA4D /* dummy.h */,
+				0E4A011B2393BD534EB6FA8F9A8BFE55 /* dynamic_bitset.h */,
+				3AF9F2C1E28163493CD6E80EFD4AB6FA /* eigen.hpp */,
+				689FA73AD5B37635FE86A267EB2496D7 /* emdL1.hpp */,
+				A1DACD56678B56B469639E5924B801A0 /* exposure_compensate.hpp */,
+				6BED1EB6B18A966E7B9B144B1669DC55 /* fast_marching.hpp */,
+				D432A9251845F7A1E10E2E7C1BF98D35 /* fast_marching_inl.hpp */,
+				8F73013016D110C9AB745EEEC8D75066 /* fast_math.hpp */,
+				5AFB3B91C957D83728499B9811BFAB50 /* features2d.hpp */,
+				29D8F47E792229391E636C0666218CE0 /* features2d.hpp */,
+				4124AC65E803C4232F9FE3AF73C3453B /* flann.hpp */,
+				7BB11A11F37E05EC47440A2893377A5B /* flann.hpp */,
+				439670DE8B35A8C6A4DA3CC686ADB8D3 /* flann_base.hpp */,
+				8BB935DFF79DAB71DB91C1DAD8DF3DE6 /* frame_source.hpp */,
+				0689CF37BF6EDE45A1797CA1ED1D7733 /* general.h */,
+				3E6B8747C6810948FAE9E99249B9338E /* global_motion.hpp */,
+				9AAEF3C333A7156BC793303C5E9111C1 /* ground_truth.h */,
+				5A5AAC83FD130A15144D41892773A5E0 /* hal.hpp */,
+				39B662A65EB52A2B2C75D98AFE989A31 /* hdf5.h */,
+				15D8568C8125931A60B34097590F0E1E /* heap.h */,
+				C06F45C167AE71F73B543B8D45CFD2A3 /* hierarchical_clustering_index.h */,
+				0F9F06AD8699B22B46FDC6CB0C523EFC /* highgui.hpp */,
+				CB7369F509C58F67A61839BBE3B479D8 /* highgui.hpp */,
+				C299A3CB4C839B03EAB3FE19182D93A1 /* highgui_c.h */,
+				CFCA67FB811C473638A389B01B310C48 /* hist_cost.hpp */,
+				DEB69B77B3EF7F93A03A6F4ACC18FBA4 /* imgcodecs.hpp */,
+				FC77291263DF987EB0D61CB78FB060EE /* imgcodecs.hpp */,
+				53655DF630549419DA162AE9BE4D3F1B /* imgcodecs_c.h */,
+				6BBB525FCA301C0EA91AE20FBF68C04C /* imgproc.hpp */,
+				BE338B95F441CF44ACC67C8FD6CB727F /* imgproc.hpp */,
+				3FD16A9A690695FD13911476714E74A1 /* imgproc_c.h */,
+				977E92FCF9B23A9610948C500E22F8CF /* index_testing.h */,
+				25CA0E5D428BF9F87487A1147F9C825E /* inpainting.hpp */,
+				6B5F3EB4295B9E46A54E9774CC855A71 /* interface.h */,
+				B10E3009837746EEF95DFBD81D106A6F /* intrin.hpp */,
+				3AAE0A988856AE714C426336437158A4 /* intrin_cpp.hpp */,
+				B77993F399A6007145F9EB75310ED37C /* intrin_neon.hpp */,
+				5EA08710E22095949AC1C653DAC37327 /* intrin_sse.hpp */,
+				18517957088F3BA7652B148738030A21 /* ios.h */,
+				E92CB7A0AB2CAC5BA6D1564831440AD8 /* ippasync.hpp */,
+				08988B4C13E3070128D775FE497799D8 /* kdtree_index.h */,
+				25B2CC14B0FEDCC26696AE7F7812A016 /* kdtree_single_index.h */,
+				C254AD47BADAB1EFBE43BC0C9D5CFBE5 /* kmeans_index.h */,
+				8664A752813AA24AD1A3D63407FED833 /* linear_index.h */,
+				50F6BE1631EB1771F51D4471BBD37AFD /* log.hpp */,
+				BAF736921E2BE2FFD02856C9D083AC15 /* logger.h */,
+				65F17ABE7A23B9EF5B66FF1BD024DE8F /* lsh_index.h */,
+				B82B870FAB76B86ADCC12AE89185224A /* lsh_table.h */,
+				BA29FBA0A92A7BD1528B0B07B446C0F1 /* mat.hpp */,
+				422DF6E5814518A68BAB5525315B01D4 /* mat.inl.hpp */,
+				56FC5DBEAAC1DB1C16884BD137938FCA /* matchers.hpp */,
+				D53B340F495548FEF1772238A4F42620 /* matrix.h */,
+				483455443B77C9BB1D6853078827BC7B /* matx.hpp */,
+				F50AB19EA1C67E7299C86329EC9E4D30 /* miniflann.hpp */,
+				B3B66B040383D2BA3CEBF25F90B3D0A1 /* ml.hpp */,
+				43324D1FD626D5D5834E21C0E87027C7 /* ml.hpp */,
+				B5FEA191B48A464E35F56BFE224EA06E /* motion_core.hpp */,
+				EA93EBF99E438DA3215044A55380379D /* motion_estimators.hpp */,
+				023A86735A284C0ACA1F93F4CEEAEB39 /* motion_stabilizing.hpp */,
+				1692BFF197B7B39C5CB65F08FC5ACE0A /* neon_utils.hpp */,
+				E1B145C7B4303AE89052F42A230DF061 /* nn_index.h */,
+				B2105DFC07D5EC73F1CB9AB456B4B0AA /* objdetect.hpp */,
+				F1D1E50CEDF4E8F4A18E0B776D0E7329 /* objdetect.hpp */,
+				4412C6CA875ECDD5DF83536015E34DB7 /* objdetect_c.h */,
+				8C5E8FA0D1449BA52172997F38ED4F42 /* object_factory.h */,
+				09E8391D2A19C8D53F8F7FFA84EC7F08 /* ocl.hpp */,
+				05AAC95017B95FF012647EF532A92EC8 /* ocl_genbase.hpp */,
+				D6BB368D397CE5557622AEA748797B2A /* opencv.hpp */,
+				A5D280F1E7BA5B4ED2C89BF34719C04B /* opencv_modules.hpp */,
+				C40714E379C53484976A703A5EBA836B /* opengl.hpp */,
+				F95158A436BA510969A4745316D1AD68 /* operations.hpp */,
+				211E5CC4183941A1838BBD63128A4D98 /* optical_flow.hpp */,
+				78EB1D157E4370DF9A9E9120E4CC8935 /* optim.hpp */,
+				F0C3973FB5B864BA1F9573039465CA13 /* outlier_rejection.hpp */,
+				276B86BCB91979F6675E448F50656AE6 /* params.h */,
+				DBD0DABD6033DE259FADFDC850DB4405 /* persistence.hpp */,
+				FB7CD0AE6F49159569CF23531D102ABC /* photo.hpp */,
+				0B6C62B7FBB418760CC1288A16D8F274 /* photo.hpp */,
+				978561076C14B23830BC0867C4ECB295 /* photo_c.h */,
+				86AE45FCE6CD507FF7108182E18397E2 /* private.hpp */,
+				4B120777DE24AF80E6CA19F6D742A7E7 /* private.cuda.hpp */,
+				3F66D9150AE67D0A3D55D704B60B65D8 /* ptr.inl.hpp */,
+				F24AE8F2C9BEA62FC229F4591271B484 /* random.h */,
+				F54E725C964D7849FAFE6B108437B0EE /* result_set.h */,
+				D64849CE1520510FAED3929EECB005CD /* ring_buffer.hpp */,
+				BFAAB4236E02AA3C6717414A1D42DE4A /* sampling.h */,
+				2752E098E5D0F8D0B807CFDE8F3F6F9B /* saturate.hpp */,
+				E6CAB3AA0AA812FE924F8EFA3291A56C /* saving.h */,
+				1BFDCD27DA80491B776D0ADB1B744897 /* seam_finders.hpp */,
+				23811E8E1564C8B7517B78A212AE1824 /* shape.hpp */,
+				70CCB304AD745D51EA95A2D35575B484 /* shape.hpp */,
+				365270B515EB7E4CFF66A4A61C14DBEB /* shape_distance.hpp */,
+				1B17CA7D15EDFC8076764331BD6A1D4D /* shape_transformer.hpp */,
+				E04F706AFD9BF6BF04F644C9BFCD453C /* simplex_downhill.h */,
+				6A43192F91B69735D9AF033CDFD76B13 /* sse_utils.hpp */,
+				7B0511E76AA64EC816EDC603DACBE709 /* stabilizer.hpp */,
+				E626299FA005323EC2165B1F8EBB3E70 /* stitching.hpp */,
+				DF04615817A45C758ED4010B30E63123 /* timelapsers.hpp */,
+				DE8E735847CE1EA1C137D1D7418CAFCD /* timer.h */,
+				A14D26E11765EA038490F667BD75455F /* tracking.hpp */,
+				C079639D9D4F5016A77C9F82F3324B92 /* tracking_c.h */,
+				2C29EA2339F4299729CA8C75E67A0396 /* traits.hpp */,
+				CC2AE786C0D4C5EB444FB7043E9EC3A2 /* types.hpp */,
+				B796360619D56EE5BC9F3CA5FADDCA4F /* types_c.h */,
+				879F41D74C05BCC3C78C58B8517347B7 /* types_c.h */,
+				B64537742F1938B82064DE3C745C85B6 /* util.hpp */,
+				96DD0B0E130C7A2096FD68DB8A9CCCFD /* util_inl.hpp */,
+				61ABA3919D3F71E7BECF475E2F0DE1BB /* utility.hpp */,
+				8405F9A58C33C463B2D36D7DFBF32132 /* va_intel.hpp */,
+				D83D05FEB7D68275387AC320D09A9F34 /* version.hpp */,
+				9111D0905923E9F5EC9BBF64A4922624 /* video.hpp */,
+				07001A1215F339A1070B70ECB833A3D1 /* video.hpp */,
+				E971D48B5E635B7793BCAE6ACCC6A54B /* videoio.hpp */,
+				F64164BE1AB339BA24A3F626D2F4999B /* videoio.hpp */,
+				6E72E91FE75636A499FC3EDEB865F0E3 /* videoio_c.h */,
+				88DC028D987BF871AC9F298B391401DB /* videostab.hpp */,
+				8F88FBAE43884E761CF77D4CDF50A1CF /* warpers.hpp */,
+				D7EB9A0B258FF435478A672B71124F30 /* warpers.hpp */,
+				F7CB45AC7CC5E35BFE673E87A28626CB /* warpers_inl.hpp */,
+				E5E1D4A108D09C98BD8284592F2B2D70 /* wimage.hpp */,
+				94041925A3A43173BE9580661B04CDB4 /* wobble_suppression.hpp */,
+				E98B7AD6BA86ECA25E0C9BD25B9358CD /* world.hpp */,
+				676E9BB7D9D4C48F0FDAE6D50A893CF4 /* Frameworks */,
+			);
+			name = OpenCV;
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		BB0C409416D62F204973AA2C6D579C7C /* Pods-carpentersquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				07F6E1414B8B0C7136296FD4DEA46245 /* Info.plist */,
+				420AE812F739A2212F502DEEF4A2AD88 /* Pods-carpentersquareTests.modulemap */,
+				AFEA89C05826CAE6F43E5B6E2BE57D12 /* Pods-carpentersquareTests-acknowledgements.markdown */,
+				80E9A9CD9B2C6D1D2489510F5C66105A /* Pods-carpentersquareTests-acknowledgements.plist */,
+				5031C9CBC4AB9E83794EC2BC69EBE770 /* Pods-carpentersquareTests-dummy.m */,
+				6A6C01A5AC2E3EEE0AA94A3B3D27CB0A /* Pods-carpentersquareTests-frameworks.sh */,
+				998B2E422F798ACA2141968A3EE5D4E3 /* Pods-carpentersquareTests-resources.sh */,
+				A00FA0038C84F512B66EBADD8C10E032 /* Pods-carpentersquareTests-umbrella.h */,
+				161105C23FCFC24E539355CF1435137B /* Pods-carpentersquareTests.debug.xcconfig */,
+				91EF082CB297B640966FAF70ABEBBF6E /* Pods-carpentersquareTests.release.xcconfig */,
+			);
+			name = "Pods-carpentersquareTests";
+			path = "Target Support Files/Pods-carpentersquareTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E8DEA6DC21FFD74D1BD0DB993244FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9AF4C6E414F5DA9CA2E912F5945BD /* OpenCV */,
+				D73265F3DCC085467065FE99C9B86926 /* PKHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D73265F3DCC085467065FE99C9B86926 /* PKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AEF3F74FE615534117C8C45438ACD309 /* FrameView.swift */,
+				95BBDB2CA2EB0DBF7F354FAA3BDB7D0C /* HUD.swift */,
+				B59CF40152F276FCDB3781E5ADC5ED66 /* PKHUD.h */,
+				C49E11F3C2DB60A3D9E228DCEAD81528 /* PKHUD.swift */,
+				834C7CA592CBA075A6038F5333152E62 /* PKHUDAnimating.swift */,
+				935D7D90A5345699DB3029DA8E7EAB77 /* PKHUDAnimation.swift */,
+				752DC70346D7E27C998DAEBCDB2B4301 /* PKHUDAssets.swift */,
+				AEB61D573E2EFD8745389DD2C613E4E8 /* PKHUDErrorView.swift */,
+				103B1486C3C56B5E8F4C3BF4CF5B337D /* PKHUDProgressView.swift */,
+				F37CCF4556FDE44CBB832B420F1D9EA7 /* PKHUDRotatingImageView.swift */,
+				769E786945CB6D57890B34E36418873E /* PKHUDSquareBaseView.swift */,
+				26B72FFE344C87C5293B45BAD7BF311C /* PKHUDSuccessView.swift */,
+				EF3CABF036DA0B3BBDB18ABBAC9E9257 /* PKHUDSystemActivityIndicatorView.swift */,
+				6346998CB1ACB5FB11BD2EF9EBF28D61 /* PKHUDTextView.swift */,
+				669275ACBE6719C4F68DD17C29316386 /* PKHUDWideBaseView.swift */,
+				B8C475756EAA15F6E52023394D51EFCB /* Window.swift */,
+				22872014019326444F6518B0EB952417 /* WindowRootViewController.swift */,
+				8A9703CA0A76C7D0029A3CD397F49EB5 /* Resources */,
+				F830F60D6C7A2A26DA62EACB6525918F /* Support Files */,
+			);
+			name = PKHUD;
+			path = PKHUD;
+			sourceTree = "<group>";
+		};
+		F830F60D6C7A2A26DA62EACB6525918F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4575A3615C393A6AF4E9DF1CEBDD290B /* Info.plist */,
+				5516F61E47F9BC787D502119DF99572B /* PKHUD.modulemap */,
+				2A59441B1B933B4BC6C7267B0662DE05 /* PKHUD.xcconfig */,
+				F1B4E89A3FD899F98A14B81D58952874 /* PKHUD-dummy.m */,
+				593B6A339B9376EB972A4CCB4AC55FB6 /* PKHUD-prefix.pch */,
+				25A410F01EE371B07800CFD0BDFA8F29 /* PKHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
+			sourceTree = "<group>";
+		};
+		FCF628E24047682824FFD033BF7AD567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1D871F20FC6B9636177DA2C69B3479 /* PKHUD.framework */,
+				1D53E8CE83A705418B91509D17CE5296 /* Pods_carpentersquare.framework */,
+				249ACB25E2CBCC1D44B6DFF91D65D19E /* Pods_carpentersquareTests.framework */,
+				632F87BB715D13DF457AEA27AA96BEF8 /* Pods_carpentersquareUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05334C605E16C8388AF3B8904F5BB15A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85FF06267AFCD09956B2CC508371E2B /* Pods-carpentersquare-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FFCE20CB8AFFB7D6EDAEFEFA20DCA62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D191BAF972007706F49E4F242FCCB8 /* Pods-carpentersquareUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE89B560644AC454CEAF594F8686372 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF3BB309F7BE0B0AF4AD465A9368EC7 /* Pods-carpentersquareTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEFB59308D9874EDAA446AD0659FA29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1929F91EB38B923FBFA0B2F53C0C4877 /* PKHUD-umbrella.h in Headers */,
+				2DCA4225866D2445C444325589BD9744 /* PKHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		444A3C7BBA4994D8E78F0F23C7207B23 /* Pods-carpentersquareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312F0D90F1A5231C92C19F71B872A9BA /* Build configuration list for PBXNativeTarget "Pods-carpentersquareUITests" */;
+			buildPhases = (
+				87408D1F0E9D7FE51224E4BC1070EE3B /* Sources */,
+				E3B3AB146328CDF36B268CF935FBE2F2 /* Frameworks */,
+				0FFCE20CB8AFFB7D6EDAEFEFA20DCA62 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-carpentersquareUITests";
+			productName = "Pods-carpentersquareUITests";
+			productReference = 632F87BB715D13DF457AEA27AA96BEF8 /* Pods_carpentersquareUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7A75F149082140741FC1E0B5B2863C8 /* PKHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9306D49004A2A30AC52787A7B1C9C87A /* Build configuration list for PBXNativeTarget "PKHUD" */;
+			buildPhases = (
+				64C2A244B5B13B1D5FBAAA42BFE1724F /* Sources */,
+				09097AE0247A71FADE9AE4A13E3E0C55 /* Frameworks */,
+				CEEFB59308D9874EDAA446AD0659FA29 /* Headers */,
+				A6E5CC81DF41A96AA2FC861070D8146A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PKHUD;
+			productName = PKHUD;
+			productReference = DA1D871F20FC6B9636177DA2C69B3479 /* PKHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD497827F8856422E5C1AA23BB5A6167 /* Pods-carpentersquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E27643F5DD3E20AEE72868BAE0814E /* Build configuration list for PBXNativeTarget "Pods-carpentersquare" */;
+			buildPhases = (
+				17129E84ABEA9E63E0E9F521A3BB32A3 /* Sources */,
+				3A16F279F54B3122C00B2DEA6990CB9F /* Frameworks */,
+				05334C605E16C8388AF3B8904F5BB15A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA8D227B12A02AF66C33CAF5B8A0304C /* PBXTargetDependency */,
+			);
+			name = "Pods-carpentersquare";
+			productName = "Pods-carpentersquare";
+			productReference = 1D53E8CE83A705418B91509D17CE5296 /* Pods_carpentersquare.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4712A8E5398EAD950396E8BC7B76809 /* Pods-carpentersquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DE197BC4DA2A95A3364FDE98E380D3 /* Build configuration list for PBXNativeTarget "Pods-carpentersquareTests" */;
+			buildPhases = (
+				7ACF8FBCC1E03E432A966D284A9F5320 /* Sources */,
+				2693F856E8BAA79418AF3370E0DC0E29 /* Frameworks */,
+				2FE89B560644AC454CEAF594F8686372 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-carpentersquareTests";
+			productName = "Pods-carpentersquareTests";
+			productReference = 249ACB25E2CBCC1D44B6DFF91D65D19E /* Pods_carpentersquareTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FCF628E24047682824FFD033BF7AD567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A75F149082140741FC1E0B5B2863C8 /* PKHUD */,
+				DD497827F8856422E5C1AA23BB5A6167 /* Pods-carpentersquare */,
+				E4712A8E5398EAD950396E8BC7B76809 /* Pods-carpentersquareTests */,
+				444A3C7BBA4994D8E78F0F23C7207B23 /* Pods-carpentersquareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E5CC81DF41A96AA2FC861070D8146A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D8AB5C8FA400C58D7CA084633DF744 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17129E84ABEA9E63E0E9F521A3BB32A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D571EE30D11ABC1A0A90920CD73522C4 /* Pods-carpentersquare-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C2A244B5B13B1D5FBAAA42BFE1724F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F34910B27A3B86966E07898A2B70AE6 /* FrameView.swift in Sources */,
+				BA1B53BE85DE9BD789FE1C32FBA8C752 /* HUD.swift in Sources */,
+				E57944FDD00D7F5F2674D4D52E0F52BA /* PKHUD-dummy.m in Sources */,
+				BF541FB658B81D55E6A960701BF0619E /* PKHUD.swift in Sources */,
+				B1DC643D39F725A5C89C8195B5C10A09 /* PKHUDAnimating.swift in Sources */,
+				3470186F176465D3CA04711D0D82DF38 /* PKHUDAnimation.swift in Sources */,
+				869B25CDDA4D1BDA81A495A23D43E108 /* PKHUDAssets.swift in Sources */,
+				17E7E62102D200AFE11B049F570C9397 /* PKHUDErrorView.swift in Sources */,
+				766750E7B98FF8495403D0C7B5064D6C /* PKHUDProgressView.swift in Sources */,
+				AEA27A6C1523E5B1A1B3B74CA02FB67D /* PKHUDRotatingImageView.swift in Sources */,
+				7F09171ED8899C35E45511452323B3DF /* PKHUDSquareBaseView.swift in Sources */,
+				A5A9F17A94A6CC0F7D4E9DE0FCAFE5AB /* PKHUDSuccessView.swift in Sources */,
+				89C4ADD534D41DF5442F67D799B8E12B /* PKHUDSystemActivityIndicatorView.swift in Sources */,
+				A7BA7C4E4C047A5698A68CA76A453605 /* PKHUDTextView.swift in Sources */,
+				D0F542D62E2AA523E0A3D28DC85D2012 /* PKHUDWideBaseView.swift in Sources */,
+				F61C2235825FE532417891978344385E /* Window.swift in Sources */,
+				F4C22A07683E879CB3ECF7D6A73F667E /* WindowRootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACF8FBCC1E03E432A966D284A9F5320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2021FF014184768BE6CD51C695DC538F /* Pods-carpentersquareTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87408D1F0E9D7FE51224E4BC1070EE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3942B8DDA10834A6DC0064771C9E64C4 /* Pods-carpentersquareUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA8D227B12A02AF66C33CAF5B8A0304C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			target = D7A75F149082140741FC1E0B5B2863C8 /* PKHUD */;
+			targetProxy = 86943B1EF1C5641F70381B1FAA742E1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D2DB1B24E2C3389B1C6FAA6E01EAF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161105C23FCFC24E539355CF1435137B /* Pods-carpentersquareTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-carpentersquareTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-carpentersquareTests/Pods-carpentersquareTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_carpentersquareTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64C2D07D9403B50A8AA59AA7B1D09C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A59441B1B933B4BC6C7267B0662DE05 /* PKHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B917F4EC1238C86189D5AC304804949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A59441B1B933B4BC6C7267B0662DE05 /* PKHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93A6338E735DB5B26E388873FB73E1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9072F456187F6BD26AE4CE784BC331 /* Pods-carpentersquare.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-carpentersquare/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-carpentersquare/Pods-carpentersquare.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_carpentersquare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BF30D51D15BC47B2EE1BEB2FF6D3C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EF082CB297B640966FAF70ABEBBF6E /* Pods-carpentersquareTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-carpentersquareTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-carpentersquareTests/Pods-carpentersquareTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_carpentersquareTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7E3FA166A03CA253DD213819127EDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92167A9DF8910E18E2CCF0614E9D8D62 /* Pods-carpentersquareUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-carpentersquareUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-carpentersquareUITests/Pods-carpentersquareUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_carpentersquareUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC2EBCDCA9ECDEBEA1511F5CA8FB8231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06A593C41CA766E57318D11CFBB0052 /* Pods-carpentersquare.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-carpentersquare/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-carpentersquare/Pods-carpentersquare.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_carpentersquare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC721F52FC6CCD1100A088E5380D74D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C11DD9AD09EBE49DE295F35FB61A6B3 /* Pods-carpentersquareUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-carpentersquareUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-carpentersquareUITests/Pods-carpentersquareUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_carpentersquareUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E27643F5DD3E20AEE72868BAE0814E /* Build configuration list for PBXNativeTarget "Pods-carpentersquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2EBCDCA9ECDEBEA1511F5CA8FB8231 /* Debug */,
+				93A6338E735DB5B26E388873FB73E1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312F0D90F1A5231C92C19F71B872A9BA /* Build configuration list for PBXNativeTarget "Pods-carpentersquareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E3FA166A03CA253DD213819127EDEC /* Debug */,
+				FC721F52FC6CCD1100A088E5380D74D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73DE197BC4DA2A95A3364FDE98E380D3 /* Build configuration list for PBXNativeTarget "Pods-carpentersquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2DB1B24E2C3389B1C6FAA6E01EAF26 /* Debug */,
+				9BF30D51D15BC47B2EE1BEB2FF6D3C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9306D49004A2A30AC52787A7B1C9C87A /* Build configuration list for PBXNativeTarget "PKHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B917F4EC1238C86189D5AC304804949 /* Debug */,
+				64C2D07D9403B50A8AA59AA7B1D09C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

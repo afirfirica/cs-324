@@ -1,0 +1,25 @@
+PODS:
+  - OpenCV (3.1.0.1)
+  - PKHUD (4.2.3)
+
+DEPENDENCIES:
+  - OpenCV (= 3.1.0.1)
+  - PKHUD (from `https://github.com/pkluz/PKHUD.git`, branch `release/swift4`)
+
+EXTERNAL SOURCES:
+  PKHUD:
+    :branch: release/swift4
+    :git: https://github.com/pkluz/PKHUD.git
+
+CHECKOUT OPTIONS:
+  PKHUD:
+    :commit: 4d8fbf70ae912dd72280cde0a5c1440ada9a7306
+    :git: https://github.com/pkluz/PKHUD.git
+
+SPEC CHECKSUMS:
+  OpenCV: 41c4250e2b06a394d6fbb634b5fa622cdd846018
+  PKHUD: 351011b853e6b942e7ee8ad335864cc84c787241
+
+PODFILE CHECKSUM: 730fe5a7e3eddbf686eaec74fa98df6cf7b18045
+
+COCOAPODS: 1.3.1

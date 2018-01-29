@@ -1,0 +1,6 @@
+framework module Pods_carpentersquareUITests {
+  umbrella header "Pods-carpentersquareUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
